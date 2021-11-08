@@ -1,0 +1,11 @@
+#cloud-config
+users:
+    - default
+    - name: master
+      groups: sudo
+      sudo: ALL=(ALL) NOPASSWD:ALL
+      shell: /bin/bash
+      ssh_authorized_keys:
+        - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCmY+dpIBoUq48c4qeiw32uKhFQytYJC3dB594ufNGgAPftkY95Q1ES180uRgVdRjuNk7DhKRtb3G+XaqH4pBEVdVHLQAS+zIZD+NZ14Xjw8fhKlBuDer/J6jRwfnlkdXThUDhZ/zPVXrwP6HaAFdwtuDdZpivgpqNsG+dqMTO2UYo3N3guOVNtYUkK/FVuBh8u7DY+5qmRpDO/zL78XgsVqori1tAA6canraO0xPMR17CjpBxpi2kj+b5vaRQLnUpp7YoU4x6J7UzUyKy6hfdLSGsl++ip2x/uZYRm+h4AI9ADrf6ctK3sI2l3BiqCAaFH8taLb0wp0SGe6Xabjp8VbQ9NPV2qCtgqRsX1NegrnQrJRaYuMhlL6X4SeWinsjft1Qduk+ZTVgTu+kPWQWY2YOWDhQKu9ELNEnBMrX1bZjIvjm2eOUajJkwNVXwq6+zmwa26PKBmkBWWyC/qeUHNZ3JuinF/xeR5vWOxwFMisk0/Eho+ejAA3eLbYhZ3YgE= akirichenko@akirichenko-OptiPlex-7050"
+
+
