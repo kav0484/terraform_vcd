@@ -1,0 +1,5 @@
+.terraform
+*.tfvars
+*.tfstate
+1
+backend.conf
